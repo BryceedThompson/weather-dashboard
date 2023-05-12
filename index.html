@@ -22,16 +22,30 @@
         <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/utc.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js"></script>
     </head>
-    <body>
+    
+    <body >
         <div>
-            <header>
-                <h1>Weather Dashboard</h1>
-            </header>
+            <div class="col-12 col-sm-12">
+                <header class="">
+                    <h1>City Weather Dashboard</h1>
+                </header>
+            </div>
+
         </div>
 
-        <div class="col-12 col-sm-3 weatherSearch">
-            <form class="form-label fs-2">Search for a City:</form>
-            <input type="text" class="form-control form-input" id="cityInput">
-            <button class="btn btn-primary searchForm" id="searchBtn" type="button">Search</button>
+        <div class="row  container-fluid me-0 pe-0">
+            <div class="col-11 col-sm-4 watherSearch ">
+                <form class="d-grid gap-3 mb-2 searchForm">
+            
+                    <label  class="form-label fs-1">Search For City:</label>
+                    <input type="text" class="form-control form-input" id="cityInput">
+                    <button class="btn btn-primary searchForm" id="searchBtn" type="button">Search</button>
+                </form>
+                <div class="search_history d-grid gap-3 mb-2"></div>
+            </div>
+            <div class="container-fluid  col-11 col-sm-8 weatherDisplay p-4 me-0"></div>
         </div>
+
+        <script src="./assets/script.js"></script>  
     </body>
+</html>
