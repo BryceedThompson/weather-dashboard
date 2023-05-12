@@ -1,0 +1,14 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-image:linear-gradient(darkblue,blue,lightblue);
+    text-align: center;
+    color: whitesmoke;
+}
+.weather_card{
+    background-color: wheat;
+}
+.firstDay{
+  background-color: wheat;  
+}
